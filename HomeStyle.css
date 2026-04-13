@@ -89,14 +89,14 @@ a {
 /* Cielo */
 .parallax__sky {
   top: -10%;
-  height: 120%;
+  height: 100%;
   object-fit: cover;
   object-position: center 36%;
 }
 
 /* Montaña */
 .parallax__mountain {
-  bottom: 9%;
+  bottom: 10%;
   height: auto;
   object-fit: contain;
   object-position: center bottom;
@@ -104,7 +104,7 @@ a {
 
 /* Suelo + pareja */
 .parallax__foreground {
-  bottom: -1px;
+  bottom: -35%;
   height: auto;
   object-fit: contain;
   object-position: center bottom;
@@ -223,7 +223,7 @@ button {
 }
 
 /* TABLET */
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
   .parallax__header {
     height: 72svh;
     min-height: 72svh;
@@ -238,7 +238,7 @@ button {
   .parallax__mountain {
     width: 150%;
     left: -25%;
-    bottom: 11%;
+    bottom: 30%;
   }
 
   .parallax__foreground {
@@ -252,7 +252,7 @@ button {
   }
 
   .parallax__content {
-    min-height: 24svh;
+    min-height: 44svh;
     padding-bottom: 2.25rem;
   }
 
@@ -269,26 +269,26 @@ button {
 /* MÓVIL */
 @media (max-width: 480px) {
   .parallax__header {
-    height: 66svh;
+    height: 80svh;
     min-height: 66svh;
   }
 
   .parallax__sky {
     top: -2%;
-    height: 104%;
+    height: 90%;
     object-position: 58% 24%;
   }
 
   .parallax__mountain {
     width: 182%;
     left: -41%;
-    bottom: 12%;
+    bottom: 28%;
   }
 
   .parallax__foreground {
     width: 186%;
     left: -43%;
-    bottom: -1px;
+    bottom: 0%;
   }
 
   .parallax__fade {
@@ -296,7 +296,7 @@ button {
   }
 
   .parallax__content {
-    min-height: 22svh;
+    min-height: 60svh;
     padding-bottom: 2rem;
   }
 
